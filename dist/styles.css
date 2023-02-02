@@ -1,0 +1,106 @@
+* {
+    font-family: 'Poppins';
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.w-auto {
+    width: auto !important;
+}
+
+.flex-row {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.header-name {
+    font-weight: 600;
+    margin: 0px;
+}
+
+.ml-2,
+.mx-2 {
+    margin-left: 0.5rem !important;
+}
+
+.warning-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    -webkit-box-shadow: 0px 2px 6px rgba(68, 68, 68, 0.15);
+    box-shadow: 0px 2px 6px rgba(68, 68, 68, 0.15);
+}
+
+.yellow-background {
+    background: #ffffd4;
+}
+
+.justify-content-between {
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-grey {
+    color: #888;
+}
+
+.notification-title {
+    font-size: 17px;
+    color: #5a5a5a;
+    font-weight: bold;
+}
+
+.wifi-icon {
+    font-size: 23px;
+    color: #5a5a5a;
+}
+
+.customer-header-layout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.75rem;
+}
+
+@media only screen and (min-width: 1600px) {
+    .customer-header-layout {
+        padding: 2rem;
+    }
+}
